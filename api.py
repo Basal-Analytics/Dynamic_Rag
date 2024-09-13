@@ -30,7 +30,7 @@ def create_embeddings_model() -> HuggingFaceEmbeddings:
     model_kwargs = {
         'device': 'cuda',
         'trust_remote_code': True,
-        'token': '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'
+        'token': 'api'
     }
     encode_kwargs = {'normalize_embeddings': True}
     embeddings = HuggingFaceEmbeddings(
